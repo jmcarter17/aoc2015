@@ -4,7 +4,7 @@ import day3
 
 
 def main():
-    for i in range(1, 2):
+    for i in range(1, 3):
         print(f"\n============\nRun day {i}")
         eval(f'day{i}.main()')
         print("============")

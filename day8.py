@@ -41,11 +41,6 @@ def main():
 
     print(solve_day8(data))
 
-    # print(data[0])
-    # print(len(data[0]))
-    # exit()
-    # print(solve_day8(data))
-
 
 if __name__ == "__main__":
     main()

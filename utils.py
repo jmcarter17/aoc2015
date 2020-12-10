@@ -12,3 +12,10 @@ def timer(fn):
         print(f"Finished {fn.__name__!r} in {run_time*1000:.4f} ms")
         return value
     return timed
+
+
+def integers_from(n):
+    i = n
+    while True:
+        yield i
+        i += 1
